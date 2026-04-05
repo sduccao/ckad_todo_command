@@ -1,0 +1,4 @@
+// enable autocomplete for zsh
+echo 'source <(kubectl completion zsh)' >> ~/.zshrc
+echo 'alias k=kubectl' >> ~/.zshrc
+echo 'compdef _kubectl k' >> ~/.zshrc 
